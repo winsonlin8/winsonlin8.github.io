@@ -8,54 +8,61 @@
 </head>
 <body>
     <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="nav-inner">
+            <a class="brand" href="index.html">Winson Lin</a>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="fabrication-logs.html">Fabrication Logs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
     <main class="container">
         <div class="page-header">
             <h1>Projects</h1>
-            <p>A few projects spanning research, robotics, and embedded systems.</p>
+            <p>
+                A focused selection of public-facing projects in wireless telemetry, robotics,
+                embedded systems, and engineering design.
+            </p>
         </div>
 
         <div class="card-grid">
-            <div class="card">
-                <h3>Wi-Fi HaLow Telemetry for Neurotechnology</h3>
+            <article class="card">
+                <h3>Wi-Fi HaLow Telemetry</h3>
                 <p>
-                    Investigated the feasibility of IEEE 802.11ah for low-power telemetry in
-                    neurotechnology systems, including throughput, latency, and energy characterization.
+                    Neurotechnology-oriented telemetry research involving low-power wireless communication,
+                    BLE comparison, and energy/performance characterization.
                 </p>
-                <p>
-                    Focus areas: wireless systems, power measurement, experimental design, and system tradeoffs.
-                </p>
-            </div>
+                <a href="halow.html">Open page</a>
+            </article>
 
-            <div class="card">
+            <article class="card">
                 <h3>URC Rover</h3>
                 <p>
-                    Contributed to a rover platform involving ROS2 integration, vision systems,
-                    communication pipelines, and subsystem coordination across software, electrical,
-                    and mechanical teams.
+                    Rover systems work spanning ROS2, autonomy, perception, communication, and manipulation.
                 </p>
-                <p>
-                    Focus areas: robotics integration, perception, remote operation, and team leadership.
-                </p>
-            </div>
+                <a href="urc.html">Open page</a>
+            </article>
 
-            <div class="card">
-                <h3>Embedded Systems and Prototyping</h3>
+            <article class="card">
+                <h3>Jumping Cat Robot</h3>
                 <p>
-                    Worked on firmware, wireless modules, PCB-related tasks, debugging, and lab test
-                    infrastructure for research and engineering projects.
+                    Biomimetic jumping quadruped work integrating electronics, sensing, motor control,
+                    and simulation.
                 </p>
+                <a href="jumping-cat.html">Open page</a>
+            </article>
+
+            <article class="card">
+                <h3>Brachial Plexus Healthcare Model</h3>
                 <p>
-                    Focus areas: microcontrollers, debugging, measurement, and hardware-software integration.
+                    An interactive educational/clinical model developed with attention to communication,
+                    physical prototyping, and usability.
                 </p>
-            </div>
+                <a href="brachial-plexus.html">Open page</a>
+            </article>
         </div>
     </main>
 

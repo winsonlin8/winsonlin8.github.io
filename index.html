@@ -8,61 +8,112 @@
 </head>
 <body>
     <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="nav-inner">
+            <a class="brand" href="index.html">Winson Lin</a>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="fabrication-logs.html">Fabrication Logs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
     <main class="container">
         <section class="hero">
-            <h1>Winson Lin</h1>
+            <h1>ECE, Robotics, Embedded Systems, and Medical Design</h1>
             <p class="subtitle">
-                B.S. in Electrical and Computer Engineering at Rice University
+                I am an undergraduate at Rice University studying Electrical and Computer Engineering
+                with a specialization in Neuroengineering and minors in Neuroscience, Engineering Design,
+                and Asian Studies.
             </p>
             <p>
-                Specialization in Neuroengineering. Minors in Neuroscience, Engineering Design,
-                and Asian Studies. Interested in robotics, medical devices, embedded systems,
-                and engineering design.
+                My work spans wireless telemetry, robotics integration, embedded systems, fabrication,
+                and human-centered technical design.
             </p>
 
             <div class="button-row">
-                <a class="button" href="projects.html">View Projects</a>
-                <a class="button secondary" href="contact.html">Contact Me</a>
+                <a class="button primary" href="projects.html">View Projects</a>
+                <a class="button secondary" href="about.html">About Me</a>
+                <a class="button secondary" href="fabrication-logs.html">Fabrication Logs</a>
             </div>
         </section>
 
-        <section>
-            <h2 class="section-title">Highlighted Projects</h2>
+        <section class="section">
+            <h2>Featured Work</h2>
+            <p class="section-intro">
+                These are the projects I want this site to emphasize most strongly:
+                Wi-Fi HaLow telemetry, the URC rover, the jumping cat robot, and the brachial plexus model.
+            </p>
+
             <div class="card-grid">
-                <div class="card">
+                <article class="card">
                     <h3>Wi-Fi HaLow Telemetry</h3>
                     <p>
-                        Low-power wireless telemetry system for neurotechnology applications,
-                        focused on power, throughput, and implant-relevant communication tradeoffs.
+                        Low-power wireless telemetry research for neurotechnology applications, with a focus
+                        on throughput, energy, and implant-relevant system tradeoffs.
                     </p>
-                    <a href="projects.html">Read more</a>
-                </div>
+                    <div class="tag-row">
+                        <span class="tag">Wireless</span>
+                        <span class="tag">Embedded</span>
+                        <span class="tag">Measurement</span>
+                    </div>
+                    <a href="halow.html">Read case study</a>
+                </article>
 
-                <div class="card">
+                <article class="card">
                     <h3>URC Rover</h3>
                     <p>
-                        ROS2-based robotic platform integrating vision, controls, communication,
-                        and multi-team subsystem coordination.
+                        A multi-subsystem rover effort involving perception, ROS2 integration, communications,
+                        autonomy, and manipulation.
                     </p>
-                    <a href="projects.html">Read more</a>
-                </div>
+                    <div class="tag-row">
+                        <span class="tag">ROS2</span>
+                        <span class="tag">Vision</span>
+                        <span class="tag">Systems Integration</span>
+                    </div>
+                    <a href="urc.html">Read case study</a>
+                </article>
 
-                <div class="card">
-                    <h3>Embedded + PCB Work</h3>
+                <article class="card">
+                    <h3>Jumping Cat Robot</h3>
                     <p>
-                        Firmware, board bring-up, debugging, and lab prototyping across research
-                        and robotics projects.
+                        Biomimetic jumping quadruped work spanning motor control, power electronics,
+                        embedded software, and simulation.
                     </p>
-                    <a href="projects.html">Read more</a>
-                </div>
+                    <div class="tag-row">
+                        <span class="tag">Motor Control</span>
+                        <span class="tag">Embedded</span>
+                        <span class="tag">Simulation</span>
+                    </div>
+                    <a href="jumping-cat.html">Read case study</a>
+                </article>
+
+                <article class="card">
+                    <h3>Brachial Plexus Model</h3>
+                    <p>
+                        An interactive physical model designed for a clinical context to explain neural pathways
+                        and treatment options.
+                    </p>
+                    <div class="tag-row">
+                        <span class="tag">Medical Design</span>
+                        <span class="tag">Prototyping</span>
+                        <span class="tag">Human-Centered</span>
+                    </div>
+                    <a href="brachial-plexus.html">Read case study</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="panel">
+                <span class="kicker">What this site covers</span>
+                <h2>Public-facing portfolio focus</h2>
+                <p>
+                    This site focuses on public, portfolio-appropriate work in robotics, embedded systems,
+                    neurotechnology, and engineering design. It also includes fabrication process logs from
+                    ENGI 210 and related teaching/fabrication experience.
+                </p>
             </div>
         </section>
     </main>
