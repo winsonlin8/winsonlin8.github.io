@@ -1,25 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Winson Lin Portfolio</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winson Lin | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Winson Lin</h1>
-    <p>BSECE with Specialization in Neuroengineering @ Rice University, George R. Brown School of Engineering</p>
-    <p>Minors in Neuroscience, Engineering Design, and Asian Studies</p>
-    <p>Interested in Robotics, Medical Devices, and Design</p>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-    <h2>Projects</h2>
+    <main class="container">
+        <section class="hero">
+            <h1>Winson Lin</h1>
+            <p class="subtitle">
+                B.S. in Electrical and Computer Engineering at Rice University
+            </p>
+            <p>
+                Specialization in Neuroengineering. Minors in Neuroscience, Engineering Design,
+                and Asian Studies. Interested in robotics, medical devices, embedded systems,
+                and engineering design.
+            </p>
 
-    <h3>Wi-Fi HaLow Telemetry</h3>
-    <p>Low-power wireless telemetry system for neurotechnology applications.</p>
+            <div class="button-row">
+                <a class="button" href="projects.html">View Projects</a>
+                <a class="button secondary" href="contact.html">Contact Me</a>
+            </div>
+        </section>
 
-    <h3>URC Rover</h3>
-    <p>ROS2-based multi-system robotic platform with vision and communication integration.</p>
+        <section>
+            <h2 class="section-title">Highlighted Projects</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Wi-Fi HaLow Telemetry</h3>
+                    <p>
+                        Low-power wireless telemetry system for neurotechnology applications,
+                        focused on power, throughput, and implant-relevant communication tradeoffs.
+                    </p>
+                    <a href="projects.html">Read more</a>
+                </div>
 
-    <h3>Contact</h3>
-    <p>Work Email: winsonlin411@gmail.com</p>
-    <p>School Email: wl85@rice.edu</p>
+                <div class="card">
+                    <h3>URC Rover</h3>
+                    <p>
+                        ROS2-based robotic platform integrating vision, controls, communication,
+                        and multi-team subsystem coordination.
+                    </p>
+                    <a href="projects.html">Read more</a>
+                </div>
+
+                <div class="card">
+                    <h3>Embedded + PCB Work</h3>
+                    <p>
+                        Firmware, board bring-up, debugging, and lab prototyping across research
+                        and robotics projects.
+                    </p>
+                    <a href="projects.html">Read more</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Winson Lin</p>
+    </footer>
 </body>
 </html>
