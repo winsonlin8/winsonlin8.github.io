@@ -19,51 +19,71 @@
         </div>
     </nav>
 
-    <main class="container">
+    <main class="container projects-page">
         <div class="page-header">
             <h1>Projects</h1>
             <p>
-                A focused selection of public-facing projects in wireless telemetry, robotics,
-                embedded systems, and engineering design.
+                A focused selection of public-facing work grouped into robotics and health technology.
             </p>
         </div>
 
-        <div class="card-grid">
-            <article class="card">
-                <h3>Wi-Fi HaLow Telemetry</h3>
-                <p>
-                    Neurotechnology-oriented telemetry research involving low-power wireless communication,
-                    BLE comparison, and energy/performance characterization.
-                </p>
-                <a href="halow.html">Open page</a>
-            </article>
+        <nav class="project-jump-links" aria-label="Project categories">
+            <a class="project-jump-link" href="#robotics">Robotics</a>
+            <a class="project-jump-link" href="#health-technology">Health Technology</a>
+        </nav>
 
-            <article class="card">
-                <h3>URC Rover</h3>
-                <p>
-                    Rover systems work spanning ROS2, autonomy, perception, communication, and manipulation.
-                </p>
-                <a href="urc.html">Open page</a>
-            </article>
+        <section class="project-accordion">
+            <details class="project-group" id="robotics" open>
+                <summary>
+                    <span>Robotics</span>
+                    <span class="project-group-meta">2 projects</span>
+                </summary>
+                <div class="project-group-content card-grid">
+                    <article class="card">
+                        <h3>URC Rover</h3>
+                        <p>
+                            Rover systems work spanning ROS2, autonomy, perception, communication, and manipulation.
+                        </p>
+                        <a href="urc.html">Open page</a>
+                    </article>
 
-            <article class="card">
-                <h3>Jumping Cat Robot</h3>
-                <p>
-                    Biomimetic jumping quadruped work integrating electronics, sensing, motor control,
-                    and simulation.
-                </p>
-                <a href="jumping-cat.html">Open page</a>
-            </article>
+                    <article class="card">
+                        <h3>Jumping Cat Robot</h3>
+                        <p>
+                            Biomimetic jumping quadruped work integrating electronics, sensing, motor control,
+                            and simulation.
+                        </p>
+                        <a href="jumping-cat.html">Open page</a>
+                    </article>
+                </div>
+            </details>
 
-            <article class="card">
-                <h3>Brachial Plexus Healthcare Model</h3>
-                <p>
-                    An interactive educational/clinical model developed with attention to communication,
-                    physical prototyping, and usability.
-                </p>
-                <a href="brachial-plexus.html">Open page</a>
-            </article>
-        </div>
+            <details class="project-group" id="health-technology" open>
+                <summary>
+                    <span>Health Technology</span>
+                    <span class="project-group-meta">2 projects</span>
+                </summary>
+                <div class="project-group-content card-grid">
+                    <article class="card">
+                        <h3>Wi-Fi HaLow Telemetry</h3>
+                        <p>
+                            Neurotechnology-oriented telemetry research involving low-power wireless communication,
+                            BLE comparison, and energy/performance characterization.
+                        </p>
+                        <a href="halow.html">Open page</a>
+                    </article>
+
+                    <article class="card">
+                        <h3>Brachial Plexus Healthcare Model</h3>
+                        <p>
+                            An interactive educational and clinical model developed with attention to communication,
+                            physical prototyping, and usability.
+                        </p>
+                        <a href="brachial-plexus.html">Open page</a>
+                    </article>
+                </div>
+            </details>
+        </section>
     </main>
 
     <footer class="footer">
